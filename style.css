@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #fff785;
+
+font-family: 'Courier New', Courier, monospace;  
+  height: 3100px;
+}
+
+header{
+    background-color: #fff785;
+padding: 49px;
+z-index: 3000000;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    padding:  30px 200px;
+}
+header a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 1.8em;
+}
+#btn{
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 60px;
+    background-color: rgb(0, 0, 0);
+}
+#btn:hover{
+    background-color: rgba(0, 0, 0, 0.37);
+}
+#logo{
+    font-size: 1.9em;
+}
+.one{
+    background-color: #fff785;
+
+    margin:  0px 200px;
+display: flex;
+justify-content: space-between;
+}
+.two{
+    width: 40%;
+    
+}
+.two h1{
+    margin: 100px 0 0 0;
+font-size: 1.9em;
+}
+.two p{
+    font-size: 1.5em;
+    }
+    #btn1{
+        position: relative;
+        top: 50px;
+        text-decoration: none;
+        font-size: 2em;
+        color: aliceblue;
+        padding: 10px 50px;
+        background-color: rgb(0, 0, 0);
+    }
+    #btn1:hover{
+        background-color: rgba(0, 0, 0, 0.315);
+ 
+    }
+    .three img{
+        box-shadow: -10px 10px ;
+        margin-top: 40px;
+        height: 80%;
+    }
+    .four{
+
+        text-align: center;
+    }
+    .four h1{
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+    .four a{
+        font-size: 90px;
+        color: black;
+        padding: 0px 34px;
+
+    }
+    .four a:hover{
+        background-color: #f1f1f1;
+        box-shadow: 10px 10px ;
+
+    }
+    .top{
+        background-color: #fff785;
+padding-top: 30px;
+padding-bottom: 30px;
+    }
+    .seven img{
+        width: 50%;
+        margin-left: 25%;
+
+    }
+    .seven{
+        margin: 10px;
+        
+    }
+    .six{
+
+        display: flex;
+        margin:  30px 170px;
+
+        justify-content: space-between;
+    }
+    .five{
+        background-color: #f1f1f1;
+        padding-bottom: 60px;
+    }
+.five h1{
+    text-align: center;
+    font-size: 2.6em;
+
+}    
+.dos{
+    margin-top: -40px;
+    display: flex;
+    justify-content: space-between;
+padding-left: 90px;
+    background-color:rgb(68, 4, 68);
+
+}
+.onea img{
+    margin: 10px;
+    width: 190%;
+    border-radius: 50%;
+}
+.twoa p{
+    margin: 50px 150px;
+    font-size: 1.6em;
+    color: #f1f1f1;
+}
+.twoa p span{
+    color: #ffee00;
+    font-size: 2.9em;
+
+}
+.eight{
+    background-color: #fff785;
+    padding-top: 50px;
+    padding: 40px 150px 90px;
+
+}
+.eight h1{
+    text-align: center;
+    font-size: 2.6em;
+}
+.eight p{
+    margin-bottom: 50px;
+
+    text-align: center;
+
+    font-size: 0.8em;
+}
+.womana{
+    display: flex;
+}
+.woman img{
+    margin-left: 70px;
+    width: 35%;
+}
+.woman{
+    margin: 30px;
+}
+.womanb{
+    margin: 0 80px;
+    display: flex;
+}
+.womanb img{
+    margin-left: 70px;
+    width: 35%;
+}
+.womanb .woman{
+    margin: 0 40px;
+}
+.eight a{
+    text-decoration: none;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    padding: 10px 44px;
+    background-color: #000000;
+
+
+}
+.eight a:hover{
+    background-color: #00000077;
+
+}
+
+.oneb{
+    display: flex;
+    justify-content: center;
+}
+.cool{
+    display: flex;
+    background-image: url(dot-texture-png-14.png);
+}
+.onec{
+    box-shadow: -10px 15px;
+    height: 350px;
+    margin: 70px;
+    background-color: #ffffff;
+}
+.onec img{
+    width: 100%;
+}
+.before{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 3em;
+}
+.befora{
+    background-color: #f1f1f1;
+}
+.end{
+    background-color: #000000;
+    height: 400px;
+}
+.end h1{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 3em;
+    color: #f1f1f1;
+}
+
+.enda{
+    display: flex;
+    justify-content: center;
+}
+.enda a{
+    margin: 70px 10px;
+    color: #f1f1f1;
+    font-size: 4em;
+}
+@media (max-width:600px) {
+    header{
+        position: relative;
+        font-size: 12px;
+        margin: 0%;
+        padding: 40px;
+        border-bottom: solid 2px black;
+    }
+
+    #logo{
+      position: relative;
+      right: 10px;
+      font-weight: bold;
+    }
+    #btn{
+        display: none;
+    }
+    .one {
+        
+        margin:-60px  0px ;
+
+        display: block;
+    }
+    #btn1{
+        position: relative;
+        left: 10PX;
+        padding: 10px;
+    }
+    .three img{
+        margin-left: 10%;
+        margin-top: 80px;
+        width: 80%;
+    }
+    .two {
+        width: auto;
+    }
+    .two p{
+        margin-left: 10PX;
+    }
+    .two h1{
+        margin-left: 5PX;
+
+    }
+    .four{
+        margin-top: 100px;
+    }
+    .four h1{
+        font-size: 1.9em;
+    }
+.five{
+    padding-top: 40px;
+    margin: 0;
+}
+.six{
+    margin: 0;
+text-align: center;
+    display:inline-block;
+}
+.seven img{
+    margin-right: 66px;
+    width:40%;
+    /* margin-left: 25%; */
+
+}
+.seven{
+    /* margin: 10px; */
+    
+}
+.cool{
+    padding-bottom:30px ;
+    display: block;
+    margin: auto;
+}
+.onec{
+    
+    margin: 30px 20px;
+}
+.dos{
+    
+    padding: 40px 0;
+    display:inline-block;
+    background-color:rgb(68, 4, 68);
+
+}
+.onea img{
+    position: relative;
+    top: 0px;
+    left: 20px;
+    margin: auto;
+    width: 140px;
+    border-radius: 50%;
+}
+.twoa p{
+    margin: auto 4px 0 10px;
+    font-size: 1.0em;
+    color: #f1f1f1;
+}
+.eight{
+    margin-top: 30px;
+    background-color: #fff785;
+    padding: unset;
+}
+.womana{
+    display: inline-block;
+}
+.womanb{
+    margin: auto;
+    display: inline-block;
+}
+
+.woman{
+    display: inline-block;
+    margin: auto;
+}
+.womana img{
+    position: relative;
+   left: 35px;
+}
+.womanb img{
+    position: relative;
+    right: 10px;
+ 
+    width: 116px;
+}
+.before{
+    padding-top: 30px;
+}
+.enda a{
+    font-size: 50px;
+
+}
+}
